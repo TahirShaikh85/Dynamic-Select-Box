@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Select Box</title>
+    <!-- inlude stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Dynamic Select Box</h1>
+    <!-- main(parent) select box -->
+    <div class="parent">
+    Choose Car Brand: <select name="" id="select1" onchange="populate(this.id,'select2')">
+        <option value=""></option>
+        <option value="audi">Audi</option>
+        <option value="bmw">BMW</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="tata">TATA</option>
+    </select>
+    </div>
+
+    <!-- child select box -->
+    <div class="child">
+    Choose Car Model: <select name="" id="select2">
+        <!-- <option value=""></option>
+        <option value="a4">A4</option>
+        <option value="a5">A5</option>
+        <option value="a6">A6</option>
+        <option value="a8">A8L</option>
+        <option value="rs6">RS6</option>
+        <option value="rs7">RS7</option> -->
+    </select>
+    </div>
+</div>
+
+<!-- include JS file -->
+<script src="main.js"></script>
+</body>
+</html>
