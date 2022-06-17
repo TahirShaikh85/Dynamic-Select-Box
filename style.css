@@ -1,1 +1,25 @@
 /*  style code here */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    margin: 40px ;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .parent, .child{
+    font-size: 25px;
+}
+.container .parent{
+    margin-bottom: 20px;
+}
+.container select{
+    padding: 5px;
+    font-size: 15px;
+}
